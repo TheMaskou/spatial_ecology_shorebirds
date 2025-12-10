@@ -16,7 +16,7 @@ website:
     search: true
     
     left:
-      - text: "Project"
+      - text: "PhD Project"
         href: qmd/teststart.qmd
         
       - sidebar:chapter1
@@ -24,6 +24,7 @@ website:
       - sidebar:chapter3
       - sidebar:chapter4
       - sidebar:chapter5
+      - sidebar:reports
       
       - text: "Acknowledgments"
         href: qmd/testend.qmd
@@ -36,8 +37,9 @@ website:
       background: light
       collapse-level: 2
       contents:
-        - text: "Test 1"
-          href: qmd/chapter_1/test1.qmd
+        - section: "Test 1"
+          contents:
+            - qmd/chapter_1/test1.qmd
         - section: "Test 2"
           contents:
             - qmd/chapter_1/test21.qmd
@@ -74,6 +76,20 @@ website:
       collapse-level: 2
       contents:
         - href: qmd/chapter_5/testch5.qmd
+        
+    - id: reports
+      title: "Reports"
+      style: docked
+      background: light
+      collapse-level: 2
+      contents:
+      - section: "Motus array"
+          contents:
+            - qmd/reports/testrepmotusdata.qmd
+      - section: "Funders"
+          contents:
+            - qmd/reports/testf1.qmd
+            - qmd/reports/testf2.qmd
 
 format:
   html:
