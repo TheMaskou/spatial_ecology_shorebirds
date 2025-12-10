@@ -78,18 +78,21 @@ website:
         - href: qmd/chapter_5/testch5.qmd
         
     - id: reports
-      title: "Reports"
+      title: "Publications"
       style: docked
       background: light
       collapse-level: 2
       contents:
-      - section: "Motus array"
+      - section: "Reports"
         contents:
             - qmd/reports/testrep.qmd
-      - section: "Funders"
+      - section: "Conferences"
         contents:
             - qmd/reports/testf1.qmd
+      - section: "Papers"
+        contents:
             - qmd/reports/testf2.qmd
+
             
 format:
   html:
