@@ -16,7 +16,7 @@ website:
     search: true
     
     left:
-      - text: "Home"
+      - text: "Project"
         href: qmd/teststart.qmd
         
       - sidebar:chapter1
