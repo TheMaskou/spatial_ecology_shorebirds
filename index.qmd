@@ -1,5 +1,5 @@
 ---
-title: "Spatial Ecology Shorebirds"
+title: "Spatial Ecology - Shorebirds"
 ---
 
 This is a Quarto website. Et oui !

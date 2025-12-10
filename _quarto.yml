@@ -9,7 +9,7 @@ execute:
   freeze: auto
   
 website:
-  title: "Spatial Ecology Shorebirds"
+  title: "Spatial Ecology - Shorebirds"
   
   navbar:
     background: primary
