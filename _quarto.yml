@@ -84,13 +84,13 @@ website:
       collapse-level: 2
       contents:
       - section: "Motus array"
-          contents:
+        contents:
             - qmd/reports/testrep.qmd
       - section: "Funders"
-          contents:
+        contents:
             - qmd/reports/testf1.qmd
             - qmd/reports/testf2.qmd
-
+            
 format:
   html:
     theme: [cosmo, brand]
