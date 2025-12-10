@@ -6,6 +6,5 @@
 /.quarto/
 
 # Quarto output
-docs/
 .quarto/
 _freeze/
