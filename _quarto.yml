@@ -85,7 +85,7 @@ website:
       contents:
       - section: "Motus array"
           contents:
-            - qmd/reports/testrepmotusdata.qmd
+            - qmd/reports/testrep.qmd
       - section: "Funders"
           contents:
             - qmd/reports/testf1.qmd
